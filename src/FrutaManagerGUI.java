@@ -27,7 +27,7 @@ public class FrutaManagerGUI {
 		JTextField frutaField = new JTextField(15);
 		panel.add(frutaField);
 		//botão para adicionar 
-		JButton addButton = new JButton("Adicionar");
+		JButton addButton = new JButton("Adicionar ");
 		panel.add(addButton);
 		//botão para modificar 
 		JButton modifyButton = new JButton("Modificar");
@@ -57,7 +57,7 @@ public class FrutaManagerGUI {
 					frutas.add(novaFruta); //adicionar uma nova fruta no array 
 					listModel.addElement(novaFruta);//adiciona o elemento no painel
 					frutaField.setText("");//limpa o campo apos adicionar a fruta 
-					JOptionPane.showMessageDialog(frame, novaFruta + " foi adicionada. ");//mensagem de confirmação
+					JOptionPane.showMessageDialog(frame, novaFruta + " foi adicionada a lista. ");//mensagem de confirmação
 				}
 				}
 		});
